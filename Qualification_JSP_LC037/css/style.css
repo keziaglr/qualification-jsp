@@ -1,0 +1,74 @@
+*{
+    color:rgb(59, 49, 49)
+}
+
+body{
+    background-color: lightgray;
+    width: 100%;
+}
+
+.title{
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+
+.contentForm{
+    position: relative;
+    left: 300px;
+    top: 120px;
+}
+
+.content-view{
+    position: relative;
+    left: 300px;
+    top: 120px;
+}
+
+td{
+    padding:20px;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;   
+    margin-bottom: 40px;
+}
+
+.subform{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    position: relative;
+    top: 10px;
+    left: 200px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(84, 117, 170);
+    cursor: pointer;
+    color:white;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+input[type="password"]{
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+.errorMsg{
+    position: relative;
+    top: 30px;
+    left: 160px;
+    font-size: 15px;
+    color:red;
+}
